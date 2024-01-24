@@ -19,6 +19,21 @@
 body {
   font-family: "Raleway", sans-serif;
 }
+.navbar-brand {
+  font-family: 'Climate Crisis', sans-serif;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  background: -webkit-linear-gradient(#f10808, #f5e904);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: tomato; 
+}
+
+
+.logo-img {
+  width: 5rem;
+  border-radius: 50%;
+}
 
 
 /* ********** Boostrap Styles ********** */
