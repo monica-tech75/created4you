@@ -22,18 +22,80 @@ body {
 .navbar-brand {
   font-family: 'Climate Crisis', sans-serif;
   letter-spacing: 0.2rem;
-  font-size: 2rem;
-  background: -webkit-linear-gradient(#f10808, #f5e904);
+  font-size: 2.5rem;
+  background: -webkit-linear-gradient(#fe0e01, rgb(255, 255, 0));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: tomato; 
+  margin-left: 0px;
+  display: flex;
 }
 
 
 .logo-img {
-  width: 5rem;
+  height: 70px;
+  width: auto;
   border-radius: 50%;
+  
 }
+.letter-ou {
+  font-size: 2.5rem;
+  
+}
+.nav-item {
+  padding-right: 2rem;
+}
+.nav-item > a{
+  margin-right: 5px;
+  transition: all 0.5s ease-out;
+  
+  padding-right: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+  
+}
+.nav-link:hover {
+  color: rgb(15, 141, 243);
+  font-weight: bolder;
+  font-size: 2em;
+}
+.navbar-toggler .navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 165, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  transition: all 0.4s ease-out;
+  
+}
+
+.navbar-toggler .navbar-toggler-icon:hover {
+  --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 1, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  opacity: 0.75;
+}
+
+
+/*#navbarNavDropdown > ul > li > a:hover{
+  color: rgb(15, 141, 243);
+  font-weight: bolder;
+  font-size: 2em;
+  
+}
+
+
+.ligth-letters {
+  color :azure;
+  font-size: 1.3rem;
+}*/
+.dropdown-item {
+  transition: all 0.5s ease-in;
+  background-color: rgb(255, 165, 0);
+  font-size: 1.5rem;
+}
+.dropdown-item:hover {
+  
+  color: rgb(255, 165, 0);
+}
+
+
+
+
 
 
 /* ********** Boostrap Styles ********** */
@@ -50,27 +112,27 @@ body {
 /*/ X-Small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap */
 
-/*/ Small devices (landscape phones, 576px and up) */
+/*/ Small devices (landscape phones, 576px and up sm) */
 @media (min-width: 576px) { 
 
  }
 
-/*/ Medium devices (tablets, 768px and up) */
+/*/ Medium devices (tablets, 768px and up md) */
 @media (min-width: 768px) { 
 
  }
 
-/*/ Large devices (desktops, 992px and up) */
+/*/ Large devices (desktops, 992px and up lg) */
 @media (min-width: 992px) { 
-
+  
  }
 
-/*/ X-Large devices (large desktops, 1200px and up) */
+/*/ X-Large devices (large desktops, 1200px and up xl) */
 @media (min-width: 1200px) { 
 
  }
 
-/*/ XX-Large devices (larger desktops, 1400px and up) */
+/*/ XX-Large devices (larger desktops, 1400px and up xxl) */
 @media (min-width: 1400px) { 
 
  }
