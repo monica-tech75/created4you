@@ -22,29 +22,23 @@ body {
 .navbar-brand {
   font-family: 'Climate Crisis', sans-serif;
   letter-spacing: 0.2rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   background: -webkit-linear-gradient(#fe0e01, rgb(255, 255, 0));
   background-clip: text;
   -webkit-text-fill-color: transparent;
   color: tomato; 
-  margin-left: 0px;
   display: flex;
 }
 
 
 .logo-img {
-  height: 70px;
+  height: 55px;
   width: auto;
   border-radius: 50%;
   
 }
-.letter-ou {
-  font-size: 2.5rem;
-  
-}
-.nav-item {
-  padding-right: 2rem;
-}
+
+
 .nav-item > a{
   margin-right: 5px;
   transition: all 0.5s ease-out;
@@ -85,13 +79,52 @@ body {
 }*/
 .dropdown-item {
   transition: all 0.5s ease-in;
-  background-color: rgb(255, 165, 0);
+  background-color: rgb(248, 159, 76);
   font-size: 1.5rem;
 }
 .dropdown-item:hover {
   
   color: rgb(255, 165, 0);
 }
+.social-icons .facebook{
+  color: rgb(43, 98, 141);
+}
+.social-icons .instagram{
+  color: rgb(189, 96, 189);
+}
+.social-icons .whatsapp{
+  color: rgb(27, 186, 27);
+}
+.social-icons .youtube{
+  color: rgb(245, 72, 72);
+}
+.social-icons .github{
+  color: white;
+}
+.social-icons .messenger{
+  color: rgb(73, 76, 165);
+}
+.social-icons .twitter{
+  color: rgb(89, 162, 200);
+}
+.social-icons {
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 10px;
+  
+  
+}
+.social-icons a:hover {
+  font-size: 2.5rem;
+  rotate: z -45deg;
+  transition: all 0.5s ease-in;
+}
+.referencia {
+  text-decoration: none;
+  color: rgb(255, 132, 0);
+  font-size: 1.5rem;
+}
+
 
 
 
