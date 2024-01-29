@@ -38,21 +38,20 @@ body {
   
 }
 
-
-.nav-item > a{
+.nav-link {
+  letter-spacing: 3px;
   margin-right: 5px;
   transition: all 0.5s ease-out;
-  
   padding-right: 1rem;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  
 }
 .nav-link:hover {
   color: rgb(15, 141, 243);
   font-weight: bolder;
-  font-size: 2em;
+  font-size: 1.5em;
 }
+
 .navbar-toggler .navbar-toggler-icon {
   --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 165, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   transition: all 0.4s ease-out;
@@ -65,27 +64,18 @@ body {
 }
 
 
-/*#navbarNavDropdown > ul > li > a:hover{
-  color: rgb(15, 141, 243);
-  font-weight: bolder;
-  font-size: 2em;
-  
-}
-
-
-.ligth-letters {
-  color :azure;
-  font-size: 1.3rem;
-}*/
 .dropdown-item {
-  transition: all 0.5s ease-in;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in;
   background-color: rgb(248, 159, 76);
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 .dropdown-item:hover {
   
   color: rgb(255, 165, 0);
 }
+/*  FOOTER  */
 .social-icons .facebook{
   color: rgb(43, 98, 141);
 }
@@ -125,6 +115,29 @@ body {
   font-size: 1.5rem;
 }
 
+/* Section main*/
+
+.last-p {
+  font-size: 1.6rem;
+}
+.button-look {
+  text-decoration: none;
+  box-shadow: 10px 8px 5px rgb(21, 38, 18);
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: rgb(240, 166, 82);
+  background: rgb(10,5,94);
+  background: linear-gradient(90deg, rgba(10,5,94,1) 0%, rgba(40,40,128,1) 35%, rgba(24,184,217,1) 100%);
+  padding: 0.6rem;
+  border-radius: 8px;
+  transition: all 0.5s ease-out;
+  
+}
+.button-look:hover {
+  font-size:smaller;
+  box-shadow: none;
+}
+
 
 
 
@@ -135,6 +148,20 @@ body {
 
 
 /* ********** My Styles ********** */
+
+.bg-gradient-blue-green {
+  background-color: rgba(83, 184, 152, 1);
+  background-image: linear-gradient(
+    135deg,
+    rgba(47, 145, 224, 0.91),
+    rgba(7, 31, 51, 0.97) 79%
+  );
+  background-image: linear-gradient(
+    131deg,
+    rgba(28, 118, 173, 0.82),
+    rgba(83,184, 152, 1)
+  );
+}
 
 
 

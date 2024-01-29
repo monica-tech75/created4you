@@ -27,7 +27,7 @@
 
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
+    <nav class="sticky-top navbar navbar-expand-lg bg-dark " data-bs-theme="dark">
       <div class="container-fluid">  
         <a class="navbar-brand" href="index.html">CREATED<span class="logo-number">
           <img class="logo-img" src="./ressourses/images/img/C4Y-favicon-round.png" alt="logo created four you" ></span><span class="letter-ou">OU</span>
@@ -46,20 +46,23 @@
 
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <div class="collapse navbar-collapse text-end" id="navbarNavDropdown">
           <ul class="navbar-nav ms-lg-auto d-flex">
+            <li class="nav-item">
+              <a class="nav-link ligth-letters" href="index.html">Home</a>
+            </li>
            
             <li class="nav-item">
-              <a class="nav-link ligth-letters" href="clientes.html">Clientes</a>
+              <a class="nav-link ligth-letters" href="clientes.html">Clients</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ligth-letters" href="contatc.html">Contact us</a>
+              <a class="nav-link ligth-letters" href="contacto.html">Contact us</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle ligth-letters" href="#choose" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Choose Your Style
               </a>
-              <ul class="dropdown-menu ">
+              <ul class="dropdown-menu text-center">
                 <li><a class="dropdown-item" href="minimal.html">Minimalist</a></li>
                 <li><a class="dropdown-item" href="animated.html">Animated</a></li>
                 <li><a class="dropdown-item" href="elegant.html">Elegant</a></li>
@@ -69,8 +72,78 @@
         </div>
       </div>
     </nav>
-    <main>
-      <h1>Seccion inicio</h1>
+    <main class="pt-5 bg-gradient-blue-green">
+      <div class="container">
+        <section class="row font-monospace lh-base fs-5 text-start text-white">
+          <article class="col-12 col-lg-5 text-center">
+            <h1>Looking for something different?</h1>
+            <p>Do you need to give a new look to your website?<br>
+            Would you like a modern and responsive site?
+            Created4You is here to make it happens.<br>
+            We offer a great variety of models for you to choose or we can totally personalice your site.</p>
+            <p class="last-p">If you can imagine, we can do it!</p>
+            <a class="button-look" href="#servicios">Have a look!</a>
+          </article>
+          <article class="col-12 col-lg-7">
+            <img
+            class="img-fluid pic1" 
+            src="./ressourses/images/img/header-image.png" 
+            alt="mobile-screen tablet-screen laptop-screen"
+            width="85%" />
+          </article>
+
+          <article class="col-12 col-lg-5 order-lg-last text-center">
+            <h2>Friendly User Responsive Websites</h2>
+            <p>
+            New technologies are growing fast and we like to be allways in the hood.<br>
+            Our team is composed for experimented web-masters, but also for new developpers who need a place to expand their ideas.</p>
+          </article>
+
+          <article class="col-12 col-lg-7">
+            <img
+            class="img-fluid pic2" 
+            src="./ressourses/images/img/header-image-2.png" 
+            alt="multiple size of computer screen"
+            width="85%" />
+          </article>
+          
+        </section>
+        <section id="servicios" class="row">
+          <article class="col-12 col-sm-6-lg-3"><div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></article>
+          <article class="col-12 col-sm-6-lg-3"><div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></article>
+          <article class="col-12 col-sm-6-lg-3"><div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></article>
+          <article class="col-12 col-sm-6-lg-3"><div class="card" style="width: 18rem;">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></article>
+        </section>
+      </div>
+      
     </main>
     
     <footer class="bg-dark p-3">
@@ -87,7 +160,9 @@
     
     
       <aside class="text-white text-end">
-        &copy; 2023  --  Made by: Monica Pardo & Co. With the help of <a class="referencia" href="https://www.youtube.com/@jonmircha" target="_blank">Jonmircha: Amigo y docente digital</a>
+        
+        <p>With the help of <a class="referencia" href="https://www.youtube.com/@jonmircha" target="_blank">Jonmircha: Amigo y docente digital</a></p>
+        &copy; 2023  --  Made by: Monica Pardo & Co. 
       </aside>
     </div>
     
