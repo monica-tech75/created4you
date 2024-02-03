@@ -75,6 +75,17 @@ body {
   
   color: rgb(255, 165, 0);
 }
+
+.header-1 {
+  color:rgb(10, 5, 94);
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+.header-2 {
+  color: rgb(21, 16, 98);
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
 /*  FOOTER  */
 .social-icons .facebook{
   color: rgb(43, 98, 141);
@@ -118,7 +129,7 @@ body {
 /* Section main*/
 
 .last-p {
-  font-size: 1.6rem;
+  margin-bottom: 2rem;
 }
 .button-look {
   text-decoration: none;
@@ -132,11 +143,13 @@ body {
   border-radius: 8px;
   transition: all 0.5s ease-out;
   
+  
 }
 .button-look:hover {
   font-size:smaller;
   box-shadow: none;
 }
+
 
 
 
@@ -164,6 +177,60 @@ body {
 }
 
 
+.bg-first-color {
+  background-color: rgb(27, 113, 212);
+}
+.bg-second-color {
+  background-color: rgb(31, 149, 108);
+}
+
+.bg-third-color {
+  background-color: rgb(197, 51, 197);
+  
+}
+.bg-fourth-color {
+  background-color: rgb(194, 118, 63);
+}
+
+.text-first {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(27, 113, 212);
+}
+.text-second {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(31, 149, 108);
+}
+.text-third {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(197, 51, 197);
+}
+
+.text-fourth {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: large;
+  color: rgb(194, 118, 63);
+}
+
+/* Estilos para pagina - Sitios*/
+.bg-gray {
+  background-color: gainsboro;
+}
+
+.bg-hero-image1 {
+  background-image: url("../ressourses/images/img/site-singlepage.jpg");
+  background-repeat: no-repeat;
+  background-size:cover
+  
+}
+
+
 
 
 
@@ -173,17 +240,19 @@ body {
 // No media query for `xs` since this is the default in Bootstrap */
 
 /*/ Small devices (landscape phones, 576px and up sm) */
-@media (min-width: 576px) { 
-
+@media (min-width: 576px) and (max-width: 767px){ 
+  .button-look {
+    font-size: 16px;
+  }
  }
 
 /*/ Medium devices (tablets, 768px and up md) */
-@media (min-width: 768px) { 
+@media (min-width: 768px) and (max-width: 991px){ 
 
  }
 
 /*/ Large devices (desktops, 992px and up lg) */
-@media (min-width: 992px) { 
+@media (min-width: 992px) and (max-width: 1199px){ 
   
  }
 
